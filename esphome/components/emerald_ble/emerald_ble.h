@@ -55,7 +55,7 @@ static const uint32_t RETURN_DEVICE_TIME_CMD =               0x0001010304;
 
 static const uint8_t standard_update_interval = 30;    // seconds
 static const float kw_to_w_conversion = 1000.0;    // conversion ratio
-static const int hr_to_s_conversion = 86400;
+static const int hr_to_s_conversion = 3600;
 
 class Emerald : public esphome::ble_client::BLEClientNode, public Component {
   // class Emerald : public esphome::ble_client::BLEClientNode, public PollingComponent {
